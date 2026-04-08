@@ -132,6 +132,9 @@ torchrun --nproc-per-node=1 sample_scripts/vd_image_sample_general_multihop.py \
 
 Use `--via_seq` to specify explicit intermediate hops, or let the model auto-route along the predefined chain `[gray → color → edge → depth]`.
 
+## Datasets
+(coming soon)
+
 ## Key Hyperparameters
 
 | Parameter | Default | Description |
